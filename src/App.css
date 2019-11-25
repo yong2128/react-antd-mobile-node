@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.containter,.main,.login_wrap,.home{
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: auto;
+}
+.main{
+  font-size: .24rem;
+  line-height: .35rem;
+}
+.main span{
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 100%;
+}
+.main p{
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.login{
+  padding: 0 .2rem;
+}
+.login .am-list-header{
+  text-align: center;
+  font-size: .26rem;
+  color: #333;
+}
+.login .ps{
+  color: #bbb;
+  margin: .2rem 0;
+  text-align: center;
+}
+.login .am-button > .am-button-icon{
+  margin: 0;
+}
+
+.myCarousel{
+  padding: 16px;
+  background: #DEF1E5;
+  overflow: hidden;
+}
+.myCarousel ul{
+  overflow: auto;
+  height: calc(100% - 200px);
+}
+.myCarousel img{
+  width: 100%;
+}
+.myCarousel .slider-decorator-0{
+  width: 91%!important;
+}
+.content{
+  padding: 15px;
+}
+
+/* /* .home .am-tabs{
+  height: calc(100% - 45px);
+} */
+/* .home .contentIndex{
+  height: calc(100% - 45px);
+  overflow: auto;
+} */
+.home .am-navbar{
+  position: fixed;
+  top : 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+.home .am-tabs-tab-bar-wrap{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+} 
+.home .am-tab-bar{
+  margin: 45px 0;
+  height: calc(100% - 100px);
+  overflow: auto;
+}
+
+.my .head{
+  padding: 0.1rem;
+}
+.my .head img{
+  width: 0.7rem;
+  height: 0.7rem;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  float: left;
+  margin-right: 0.1rem;
+}
+.head .head_detail{
+  float: left;
+  padding-top: 0.1rem;
+}
+.head_detail p{
+  margin: 0.04rem 0;
+}
+.head_detail span{
+  text-decoration: underline;
+  color: lightcoral;
+}
+
+.self{
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.self a{
+  width: 150px;
+  display: inline-block;
+  margin: 0 15px;
+}

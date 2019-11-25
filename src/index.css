@@ -1,0 +1,39 @@
+/* 以640px为准 */
+html{font-size: 31.25vw;}
+
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend,input{
+  margin : 0; 
+  padding : 0;
+}
+ul,li,ol{
+  list-style : none;
+}
+img,fieldset,input{
+  border : 0; 
+}
+img{
+  display : block;
+}
+a{
+  text-decoration : none; 
+  color : #333;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight : 100;
+}
+input,a{
+  outline : none;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f1f1f1;
+  font-family : "微软雅黑";
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
